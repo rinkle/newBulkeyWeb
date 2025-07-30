@@ -1,0 +1,42 @@
+﻿@using BulkeyWebNewTest.Models;
+@using BulkeyWebNewTest.Controllers;
+@model TeamModel
+
+@{
+    ViewData["Title"] = "Home Page";
+    List<Team> Team = new List<Team>();
+    Team = ViewBag.TeamList;
+
+}
+
+
+<div class="text-center">
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.TeamList)
+                {
+                    <tr>
+                        <th scope="row">@item.TeamId</th>
+                        <td>@item.FirstName</td>
+                        <td>@item.LastName</td>
+                    </tr>
+                }
+              
+               
+            </tbody>
+        </table>
+    </div>
+
+
+   
+</div>
+

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BulkeyWebNewTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfdfad0dd35f2b3fe2bd0210649444dfbd0cfc7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BulkeyWebNewTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BulkeyWebNewTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
